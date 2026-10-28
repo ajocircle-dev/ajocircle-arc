@@ -5,6 +5,7 @@
 - **Compiler:** solc 0.8.28, optimizer 200 runs, evm `cancun` (same source/settings as the Arc testnet deploy)
 - **Constructor:** `usdc = 0x3600000000000000000000000000000000000000` (USDC; 6 decimals ERC-20, also the native gas token at 18 decimals)
 - **RPC:** https://rpc.mainnet.arc.io · **Explorer:** https://explorer.arc.io
+- **App:** https://ajocircle-arc.pages.dev
 - **Deployer:** `0x61C24Be7f8c336909AD50F2d5160Ce4863f0c83F` (keystore `arc-mainnet-deployer`)
 - **Deployed:** 2026-10-28 ~04:36 WAT. User-approved Option 1; hard cap 2 USDC total. No other mainnet txs.
 

@@ -133,7 +133,7 @@ export function TxAction({
 
       {insufficient && (
         <p className="text-xs text-danger">
-          You need {usd(needed)} USDC but hold {usd(balance ?? 0n)}. Use "Get test USDC" in the Arc Studio sidebar.
+          You need {usd(needed)} USDC but hold {usd(balance ?? 0n)}. Fund this wallet with Arc USDC and try again.
         </p>
       )}
       {disabled && disabledReason && !insufficient && <p className="text-xs text-subtle">{disabledReason}</p>}

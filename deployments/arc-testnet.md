@@ -5,7 +5,7 @@
 - **Compiler:** solc 0.8.28, optimizer 200 runs, evm `cancun`
 - **Constructor:** `usdc = 0x3600000000000000000000000000000000000000` (USDC, 6 decimals; also the native gas token, 18 decimals natively)
 - **RPC:** https://rpc.testnet.arc.io · **Explorer:** https://explorer.testnet.arc.io
-- **App:** https://ajocircle-arc.pages.dev
+- **App (preview):** https://testnet.ajocircle-arc.pages.dev (production https://ajocircle-arc.pages.dev is now mainnet)
 - **Seeded:** 2026-10-26, ~17:38–17:43 WAT. Wallets were funded from faucet.circle.com (20 testnet USDC each; demo-2 received 40).
 
 ## Wallets (public addresses only)

@@ -34,7 +34,7 @@ export function parseTxError(error: unknown): string | null {
     const msg = error.shortMessage.toLowerCase()
     if (msg.includes('user rejected') || msg.includes('user denied')) return null
     if (msg.includes('insufficient funds')) {
-      return 'Not enough USDC to cover gas. Get test USDC from the Arc Studio sidebar.'
+      return 'Not enough USDC to cover gas. On Arc the gas token is USDC.'
     }
     if (msg.includes('exceeds balance') || msg.includes('transfer amount exceeds')) {
       return 'Insufficient USDC balance.'

@@ -1,9 +1,12 @@
-import { arcTestnet } from 'viem/chains'
+import { arc, arcTestnet } from 'viem/chains'
 import { getUsdc, requireChain } from '@/onchain-facts'
 import { usdcDecimalsFor } from '@/onchain-money'
 import { ajoCircleAbi } from './ajoAbi'
 
-export const CHAIN_ID = arcTestnet.id
+/** Production defaults to Arc mainnet. Set VITE_AJO_NETWORK=testnet for the demo preview. */
+const network = String(import.meta.env.VITE_AJO_NETWORK ?? 'mainnet').toLowerCase()
+export const IS_TESTNET = network === 'testnet'
+export const CHAIN_ID = IS_TESTNET ? arcTestnet.id : arc.id
 export const CHAIN = requireChain(CHAIN_ID)
 
 const usdcFact = getUsdc(CHAIN_ID)
