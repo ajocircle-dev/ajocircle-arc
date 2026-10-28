@@ -23,11 +23,11 @@ Built with [Arc Studio](https://studio.arc.io)
 | **Deploy tx** | [`0x348899f9…c30c33`](https://explorer.arc.io/tx/0x348899f97d7ac48c8b3b6dcfc91af5138eff52c057011029d99f5173cec30c33) |
 | **Approve tx** | [`0x18076014…de956a`](https://explorer.arc.io/tx/0x180760149f4dec70db1db252ac755afb81d733f91336fec3117aef169dde956a) |
 | **createCircle tx** | [`0x81a11cf5…d6ce9f`](https://explorer.arc.io/tx/0x81a11cf5b8591cf26bf19597a37f800e26f82158f823ceb44a47ce75fdd6ce9f) |
-| **Circle 1** | Lagos Mainnet Ajo — 0.01 USDC, 2 seats, 1-day rounds, collateral on (Open, 1/2 joined) |
+| **Circle 1** | Lagos Mainnet Ajo: 0.01 USDC, 2 seats, 1-day rounds, collateral on (Open, 1/2 joined) |
 
 Full notes: [`deployments/arc-mainnet.md`](deployments/arc-mainnet.md).
 
-## Arc testnet (chain 5042002) — secondary
+## Arc testnet (chain 5042002), secondary
 
 Kept for judges: four seeded demo circles. Preview deploy:
 
